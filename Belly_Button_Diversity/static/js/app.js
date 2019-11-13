@@ -62,10 +62,8 @@ async function buildCharts(sample) {
         text: datatext,
         marker: {
           size: datavalue,
-          color: colordata,
-          colorscale: "Rainbow",
-          cmin: 0,
-          cmax: 2
+          color: datalabels,
+          colorscale: "Earth"
         }
       };
 
